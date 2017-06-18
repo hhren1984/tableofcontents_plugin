@@ -100,7 +100,6 @@ class tableofcontents_plugin extends Plugin {
 	 */
 	function SkinBeginHtmlHead(& $params) {
 		$this->require_js('js/toc.js');
-		$this->require_js('js/tableofcontent.js');
 	}
 
 	/**
