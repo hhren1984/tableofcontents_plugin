@@ -69,7 +69,7 @@ class tableofcontents_plugin extends Plugin {
 				'label' => 'Select a list style',
 				'defaultvalue' => 'order',
 				'type' => 'select',
-				'options' => array( 'order' => 'Order List', 'unorder' => 'Unordered list' ),
+				'options' => array( 'order' => 'Order List', 'unordered' => 'Unordered list' ),
 				'note' => 'This is the style of the content table list',
 			)
 		);
