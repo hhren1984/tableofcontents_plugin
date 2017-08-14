@@ -104,7 +104,7 @@
 
             txt = getTextContent(element);
             var tit = txt.replace(/^\d+[.、\s]+/g, '');
-            tit = txt.replace(/[^a-zA-Z0-9_\-\s\u4e00-\u9fa5]+/g, '');
+            //tit = txt.replace(/[^a-zA-Z0-9_\-\s\u4e00-\u9fa5]+/g, '');
 
             /* Get and Set ID Attribute */
             id = element.getAttribute('id') || tit;
