@@ -110,7 +110,7 @@
             id = element.getAttribute('id') || tit;
 
             //element.setAttribute("id", id);
-            $(element).before('<a name="' + id + '" style="position: relative;"><span style="position: absolute;display:block; width:100px; height:50px;  top: -30px;  "></span></a>');
+            $(element).before('<a name="' + id + '" style="position: relative;" class="anchor"><span style="position: absolute;display:block; width:100px; height:50px;  top: -30px;  "></span></a>');
             $(element).append('<span style="position: absolute;display:block; width:100px; height:50px;  top: -30px;  "></span>');
             $("#" + id).css("position", "relative");
 
